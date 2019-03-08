@@ -1,0 +1,68 @@
+.navbar {
+    padding-top: 6.5vh !important;
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(124,183,230,0) 99%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(124,183,230,0) 99%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(124,183,230,0) 99%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Permanent Marker', cursive !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.navbar-brand {
+    margin-left: 2.5em !important;
+    margin-bottom: .5em !important;
+    text-shadow: 10px 10px 0px #9da0a4,
+                     20px 20px 0px #696b6f;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus ,
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.800);
+    border-radius: 25px;
+}
+
+.navbar-default .navbar-toggle:hover {
+   background-color: rgba(0, 0, 0, 0.324);
+   border-radius: 25px;
+}
+
+.navbar-default .navbar-toggle:focus  {
+    background-color: rgba(0, 0, 0, 0.800);
+    border-radius: 25px;
+}
+
+.navbar-default .navbar-toggle {
+   border-color: rgba(0, 0, 0, 0.598);
+   border-radius: 25px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: #FFF;
+}
+
+.banner {
+    background-color: rgb(0, 0, 0) !important;
+    padding-top: 3vh;
+    padding-left: 2.5em !important;
+    text-shadow: 10px 10px 0px #d7d9dc, 20px 20px 0px #696b6f;
+    font-family: 'Permanent Marker', cursive !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
