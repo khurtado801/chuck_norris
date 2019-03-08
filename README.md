@@ -14,3 +14,5 @@
   * Each listed joke is clickable
   * When a joke is selected it is displayed (ex: open a dialog the joke)
 
+## `Viewed Jokes` page:
+  * When a joke is clicked on (from any page) it is added to this page
